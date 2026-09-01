@@ -12,11 +12,11 @@ def start():
 
 def decided(danger):
     if danger == 1:
-        pass
+        mock_voice.simple()
     elif danger == 2:
-        pass
+        mock_voice.near()
     elif danger == 3:
-        pass
+        mock_voice.danger()
 
 if __name__ == "__main__":
     start()
