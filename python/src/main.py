@@ -1,5 +1,5 @@
 # === main.py === #
-
+import mock_voice
 import mock_sensor
 
 def start():
