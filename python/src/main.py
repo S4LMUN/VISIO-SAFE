@@ -1,8 +1,10 @@
 # === main.py === #
 
-start()
-
 def start():
-    while():
-        print(" === System Start ===")
-        break()
+    while True:
+        print("=== System Start ===")
+        break
+
+
+if __name__ == "__main__":
+    start()
