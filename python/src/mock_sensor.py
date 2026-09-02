@@ -5,7 +5,7 @@
 # danger level 1 simple, 2 near, 3 danger 
 
 def sensor():
-    sensor_r = 100 # Follow sensor device #
+    sensor_r = 0.9 # Follow sensor device #
     if sensor_r < 5 and sensor_r >= 2:
         return 1
 
